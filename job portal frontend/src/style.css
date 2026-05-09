@@ -1,0 +1,313 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background: #dedef1;
+/* background: radial-gradient(circle, rgba(63, 59, 170, 0.12) 100%, rgba(184, 196, 235, 0.634) 75%); */
+/* background: radial-gradient(circle, #dbeafe, #e0f7fa); */
+}
+
+
+/* navbar */
+
+.Nav-bar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    font-family: "Saira Stencil", sans-serif;
+}
+
+.left-part{
+    height: 100%;
+    width: 40%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.left-part img{
+    height: 80px;
+}
+.right-part{
+   height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    /* background-color: skyblue; */
+}
+.box{
+    font-size: 17px;
+     cursor: pointer;
+}
+.box:hover{
+    font-weight: bold;
+}
+.signin-but{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: rgb(61, 61, 227);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+ .signin-but:hover{
+    color: black;
+    
+}
+.singup-but{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(61, 61, 227);
+    border: none;
+      border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+ .singup-but:hover{
+    color: black;
+    
+}
+
+
+
+
+
+/* Header part */
+
+
+.header{
+    height: 220px;
+    width: 100%;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: gray; */
+    
+}
+
+.header-content{
+ height: 100%;
+ width: 30%;
+ display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+/* background-color: red; */
+}
+.header-content h6{
+    font-size: 30px;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+.header-content h1{
+    font-size: 33px;
+    color: black;
+}
+.header-content p{
+    font-size: 20px;
+    color: black;
+}
+.header-content p:hover{
+    color: blue;
+    /* font-family: "Saira Stencil", sans-serif; */
+}
+
+
+
+
+/* container */
+
+
+
+
+.container{
+    height: 400px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+
+.features{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: aqua; */
+}
+
+.feature{
+    height: 250px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 30px; */
+    border-radius: 20px;
+    /* background-color: gray; */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+}
+.feature:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    
+   /* background-color: blue; */
+}
+.feature  h3{
+    /* height: 70px; */
+    /* width: 100%; */
+    padding: 10px;
+font-size: 23px;
+font-weight: bold;
+    text-align: center;
+    font-family: "Saira Stencil", sans-serif;
+    /* background-color: blue; */
+}
+.feature p{
+    text-align: center;
+  margin-top: 15px;
+    /* background-color: red; */
+    font-size: 20px;
+}
+
+
+
+.body{
+    height: 220px;
+    width: 100%;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: gray; */
+    
+}
+
+.body-content{
+ height: 100%;
+ width: 100%;
+ display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+/* background-color: red; */
+}
+
+.body-content h1{
+    padding: 10px;
+    font-size: 33px;
+    color: black;
+     font-family: "Saira Stencil", sans-serif;
+}
+.body-content p{
+    font-size: 26px;
+    color: black;
+}
+.body-content p:hover{
+    color: blue;
+    /* font-family: "Saira Stencil", sans-serif; */
+}
+
+
+.footer {
+  /* background: linear-gradient(to right, #1e3c72, #2a5298); */
+  /* color: white; */
+  padding-top: 40px;
+   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+   border: 1px solid black;
+   /* background-color: red; */
+}
+.footer:hover{
+     border: 1px solid black;
+    cursor: pointer;
+    transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 0 40px;
+ 
+}
+
+.footer-section h2.logo {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  /* color: #d1d5db; */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-section ul li:hover {
+  color:blue;
+  transform: translateX(5px);
+}
+
+.social-icons span {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons span:hover {
+  transform: scale(1.2);
+  color: #00f2fe;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
